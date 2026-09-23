@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NordWool Home — Fjord | Portfolio Case Study</title>
+  <style>
+    :root { --ink:#242421; --muted:#716f68; --paper:#f4f1ea; --white:#fff; --line:#d9d4ca; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:var(--paper); font-family:Inter,Arial,sans-serif; line-height:1.6; }
+    h1,h2,p { margin-top:0; }
+    h1 { max-width:850px; margin-bottom:24px; font:500 clamp(3.4rem,8vw,7.5rem)/.92 Georgia,serif; letter-spacing:-.055em; }
+    h2 { margin-bottom:20px; font:500 clamp(2rem,4vw,3.5rem)/1 Georgia,serif; letter-spacing:-.035em; }
+    .wrap { width:min(1160px,calc(100% - 40px)); margin:auto; }
+    header { min-height:72vh; display:grid; align-content:end; padding:72px 0 64px; }
+    .eyebrow { margin-bottom:28px; color:var(--muted); font-size:.78rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase; }
+    .lead { max-width:700px; margin:0; color:#4f4d48; font-size:clamp(1.08rem,2vw,1.35rem); }
+    .hero { width:100%; display:block; aspect-ratio:16/9; object-fit:cover; background:#dedbd4; }
+    section { padding:100px 0; }
+    .grid { display:grid; grid-template-columns:minmax(0,1fr) minmax(280px,420px); gap:clamp(40px,8vw,120px); align-items:start; }
+    .copy { max-width:680px; font-size:1.08rem; }
+    .facts { border-top:1px solid var(--line); }
+    .fact { display:grid; grid-template-columns:110px 1fr; gap:20px; padding:18px 0; border-bottom:1px solid var(--line); }
+    .fact b { font-size:.75rem; letter-spacing:.09em; text-transform:uppercase; }
+    video { width:100%; display:block; background:#111; }
+    .gallery { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+    .gallery img { width:100%; height:100%; min-height:320px; object-fit:cover; display:block; }
+    .gallery img:first-child { grid-row:span 2; }
+    .role { background:var(--ink); color:var(--paper); }
+    .role .grid { grid-template-columns:.8fr 1.2fr; }
+    .role ul { margin:0; padding:0; list-style:none; font-size:clamp(1.05rem,2vw,1.3rem); }
+    .role li { padding:15px 0; border-bottom:1px solid #4e4d49; }
+    .social { max-width:720px; padding:clamp(28px,6vw,64px); background:var(--white); border:1px solid var(--line); font-family:Georgia,serif; font-size:clamp(1.12rem,2vw,1.35rem); }
+    footer { padding:36px 0 54px; color:var(--muted); border-top:1px solid var(--line); font-size:.85rem; }
+    @media (max-width:760px) { header{min-height:62vh}.grid,.role .grid{grid-template-columns:1fr}.gallery{grid-template-columns:1fr}.gallery img:first-child{grid-row:auto}.gallery img{min-height:240px}section{padding:72px 0} }
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <p class="eyebrow">AI-assisted product campaign · Portfolio concept</p>
+    <h1>Fjord by<br>NordWool Home</h1>
+    <p class="lead">A calm, tactile product story for a fictional Scandinavian-inspired home textile brand.</p>
+  </header>
+
+  <img class="hero" src="assets/fjord-cover.png" alt="Fjord wool throw styled on a light sofa">
+
+  <section class="wrap grid">
+    <div>
+      <p class="eyebrow">The brief</p>
+      <h2>Make natural warmth feel considered.</h2>
+    </div>
+    <div class="copy">
+      <p>The brief was to introduce Fjord, a pure wool throw, through a campaign that feels premium without becoming cold or overly staged.</p>
+      <p>Because wool is highly tactile, the central challenge was preserving a believable natural texture throughout an AI-assisted visual workflow. Real product photography became the visual anchor; generated environments and careful editing created a cohesive setting around it.</p>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <p class="eyebrow">Final film · 00:16</p>
+    <video controls preload="metadata" poster="assets/fjord-cover.png">
+      <source src="assets/NordWool-Home_Fjord_Portfolio_Final.mp4" type="video/mp4">
+    </video>
+  </section>
+
+  <section class="wrap gallery" aria-label="Campaign details">
+    <img src="assets/fjord-final-frame.png" alt="Wide campaign frame showing the throw in a light interior">
+    <img src="assets/fjord-texture.png" alt="Close-up of the wool texture">
+    <img src="assets/fjord-fringe.png" alt="Close-up of the throw fringe">
+  </section>
+
+  <section class="role">
+    <div class="wrap grid">
+      <div>
+        <p class="eyebrow">My contribution</p>
+        <h2>Creative direction from brief to final quality control.</h2>
+      </div>
+      <ul>
+        <li>Creative direction and campaign concept</li>
+        <li>Audience and brand positioning</li>
+        <li>Content strategy and copy editing</li>
+        <li>Visual references and art direction</li>
+        <li>AI-assisted image production and selection</li>
+        <li>Video structure, voice selection and final quality control</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="wrap grid">
+    <div>
+      <p class="eyebrow">Campaign copy</p>
+      <h2>Quiet confidence, without the hard sell.</h2>
+      <div class="facts">
+        <div class="fact"><b>Format</b><span>Social campaign and short product film</span></div>
+        <div class="fact"><b>Language</b><span>English</span></div>
+        <div class="fact"><b>Tools</b><span>Custom Content Agent, Airtable, Trello, AI image tools and Clipchamp</span></div>
+      </div>
+    </div>
+    <div class="social">
+      <p>Meet Fjord, a pure wool throw by NordWool Home.</p>
+      <p>Made from 100% wool, Fjord combines a light-grey palette with a Scandinavian-inspired pattern and neat fringe detailing. At 160 × 200 cm with a fabric weight of 340 g/m², it brings warmth, comfort and visual character into the home.</p>
+      <p>A versatile piece for everyday living — wherever and however comfort takes shape.</p>
+      <p>NordWool Home — natural materials, thoughtfully considered.</p>
+    </div>
+  </section>
+
+  <footer><div class="wrap">Self-initiated portfolio concept for a fictional brand. No commercial client relationship is implied.</div></footer>
+</body>
+</html>
